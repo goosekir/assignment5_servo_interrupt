@@ -1,0 +1,40 @@
+# ESP-IDF build output
+build/
+managed_components/
+
+# ESP-IDF cache / generated files
+.cache/
+sdkconfig.old
+dependencies.lock
+
+# VS Code local config / IntelliSense cache
+.vscode/ipch/
+.vscode/.browse.c_cpp.db*
+.vscode/*.log
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Python cache / virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
