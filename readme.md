@@ -32,14 +32,17 @@ This project uses an ESP32 with ESP-IDF to control a servo motor using potentiom
 
 ```text
 assignment5_servo_interrupt/
+├── assets/
+│   └── servo_interrupt_demo.mp4
 ├── main/
 │   ├── assignment5.c
 │   └── CMakeLists.txt
 ├── CMakeLists.txt
 ├── sdkconfig
+├── .gitignore
 └── README.md
+```
 
-```md
 ## Demo Video
 
 [Watch the demo video](assets/servo_interrupt_demo.mp4)
